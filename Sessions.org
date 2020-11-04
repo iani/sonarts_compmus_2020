@@ -3,6 +3,13 @@
   :PROPERTIES:
   :DATE:     <2020-11-04 Wed 19:00>
   :END:
+
+First session
+
+** COMMENT testing a comment
+blah
+** Testing non-comment
+blih
 * Session 1
   :PROPERTIES:
   :DATE:     <2020-11-11 Wed 19:00>
