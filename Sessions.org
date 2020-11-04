@@ -1,0 +1,53 @@
+
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-11-04 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-11-11 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-11-18 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-11-25 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-12-02 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-12-09 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-12-16 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2020-12-23 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2021-01-13 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2021-01-20 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2021-01-27 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2021-02-03 Wed 19:00>
+  :END:
+* Session 1
+  :PROPERTIES:
+  :DATE:     <2021-02-10 Wed 19:00>
+  :END:
