@@ -1,0 +1,29 @@
+# 24 Nov 2020 18:59 - Overview
+* 0. Introduction <2020-11-25 Wed 19:00> [3]
+* 1. Navigating the Environment <2020-11-25 Wed 19:00> [3]
+* 2. Making Sound <2020-11-25 Wed 19:00> [3]
+* 3. Synth and SynthDef <2020-12-02 Wed 19:00> [4]
+* 4. Envelopes and doneAction <2020-12-02 Wed 19:00> [4]
+* 5. Multichannel Expansion <2020-12-02 Wed 19:00> [4]
+* 6. Iteration <2020-12-09 Wed 19:00> [5]
+* 7. Server Architecture <2020-12-09 Wed 19:00> [5]
+* 8. Buffers <2020-12-09 Wed 19:00> [5]
+* 9. MIDI, Part I <2020-12-16 Wed 19:00> [6]
+* 10. Patterns <2020-12-16 Wed 19:00> [6]
+* 11. TouchOSC
+* 12. Nintendo Wiimote
+* 13. Xbox Kinect
+* 14. GUI <2021-01-13 Wed 19:00> [7]
+* 15. Composing a Piece, Part I <2021-01-13 Wed 19:00> [7]
+* 16. Composing a Piece, Part II <2021-01-20 Wed 19:00> [8]
+* 17. Composing a Piece, Part III <2021-01-20 Wed 19:00> [8]
+* 18. MIDI, Part II <2021-01-27 Wed 19:00> [9]
+* 19. Arduino
+* 20. Microphones and SoundIn <2021-01-27 Wed 19:00> [9]
+* 21. FM Synthesis, Part I <2021-02-03 Wed 19:00> [10]
+* 22. FM Synthesis, Part II <2021-02-03 Wed 19:00> [10]
+* 23. Wavetable Synthesis, Part I <2021-02-10 Wed 19:00> [11]
+* 24. Wavetable Synthesis, Part II <2021-02-10 Wed 19:00> [11]
+* 25. Granular Synthesis, Part I <2021-02-17 Wed 19:00> [12]
+* 26. Granular Synthesis, Part II <2021-02-17 Wed 19:00> [12]
+* 27. Contributing with Git and GitHub
