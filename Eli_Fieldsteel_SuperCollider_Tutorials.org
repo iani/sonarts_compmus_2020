@@ -1,7 +1,48 @@
 # 24 Nov 2020 18:59 - Overview
 * 0. Introduction <2020-11-25 Wed 19:00> [3]
+
+- Runs on Mac, Windows, Linux
+- Tutorial is targeted to musicians
+- General comments on approach of tutorial
+- Will use most recent version of SC
+
 * 1. Navigating the Environment <2020-11-25 Wed 19:00> [3]
+
+- IDE Windows: Workspace, Help, Post Window
+- Moving and repositioning windows
+- Undocking and collecting windows
+- Preferences and keyboard shortcuts
+- Post window
+  - Compile messages
+  - Clearing the post window
+- Creating a new sc document
+- Basic syntax: Receiver - message paradigm
+  - The terms methods and messages can be used interchangeably
+- Evaluating a line of code.
+- First error: misspelling a message
+  - reading the error message
+- Second type of error: Syntax error.
+- Variables: Named containers.
+- Global variables vs. local variables.
+- Limitations/rules in using local variables.
+- 2 common types of global variables: Interpreter variables and environment variables.
+- re-using a variable in a code block vs. long expressions.
+- Comments.
+- Using the built-in help system.
+
 * 2. Making Sound <2020-11-25 Wed 19:00> [3]
+
+- Booting the local server.
+- Interpeter and server status line.
+- Ways to boot and quit the server.
+- Playing a function.
+- Stopping all sound.
+- Freeing synths.
+- A common error in creating synths from functions.
+- Unit generators (UGens).
+- ar, kr, and ir UGens.
+- 
+
 * 3. Synth and SynthDef <2020-12-02 Wed 19:00> [4]
 * 4. Envelopes and doneAction <2020-12-02 Wed 19:00> [4]
 * 5. Multichannel Expansion <2020-12-02 Wed 19:00> [4]
