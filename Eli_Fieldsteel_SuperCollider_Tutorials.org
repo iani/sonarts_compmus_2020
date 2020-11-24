@@ -41,7 +41,16 @@
 - A common error in creating synths from functions.
 - Unit generators (UGens).
 - ar, kr, and ir UGens.
-- 
+- Playing an example from the UGen help file for SinOsc.
+- UGen arguments.
+- Default values for UGen arguments.
+- Skipping and naming arguments.
+- Alternative for mul argument: * (multiply).
+- Adding arguments in a synth function.
+- Changing the parameters of a synth by using its functions' arguments.
+- Using UGens to control other UGens.
+- The 'range' and 'exprange' messages.
+- Controlling the frequency of a control UGen.
 
 * 3. Synth and SynthDef <2020-12-02 Wed 19:00> [4]
 * 4. Envelopes and doneAction <2020-12-02 Wed 19:00> [4]
