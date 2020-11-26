@@ -145,6 +145,8 @@ bar
 
 * 3. Synth and SynthDef <2020-12-02 Wed 19:00> [4]
 
+- 
+
 * 4. Envelopes and doneAction <2020-12-02 Wed 19:00> [4]
 * 5. Multichannel Expansion <2020-12-02 Wed 19:00> [4]
 * 6. Iteration <2020-12-09 Wed 19:00> [5]
