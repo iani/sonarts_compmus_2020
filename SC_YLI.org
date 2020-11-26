@@ -1,0 +1,72 @@
+# Ύλη
+* First steps
+** Information online
+*** The SuperCollider website: 
+**** Documentation
+**** Forum
+**** Facebook
+** PDF Introducion: A Gentle Introduction to SuperCollider
+** Download
+** Language and Server
+** Booting the Server
+** Evaluating (Running) code
+** Making a Sound
+** Stopping all sounds
+* Language: Programming Elements and Rules
+** Variables
+*** Interpreter variables
+*** Environment variables
+*** Local variables
+** Syntax rules and elements
+*** Class Names
+*** Identifiers
+*** Expressions and Statements
+**** Messages and arguments
+**** Expressions with binary operators
+**** Statement separators
+*** Grouping, Enclosures
+**** Parentheses
+***** Parentheses - expression grouping
+***** Parentheses - arguments
+***** Parentheses - building number arrays
+**** Brackets
+***** Brackets - Collecions
+***** Brackets - Indexing
+**** Braces
+***** Functions
+***** Blocks
+** Different Categories of Object Classes
+*** Collections
+**** Types of collections
+**** Creating a collection
+**** Adding elements to a collection
+**** Arrays vs Lists
+**** Iterating over the elements of a List
+*** Functions
+**** Defining and evaluating a function
+**** Return value of a function
+**** Defining arguments and their default values
+**** Closures
+*** Routines, Tasks
+*** Dictionaries and Events
+*** Gui Elements
+**** Windows
+**** Views
+**** GUI Elements
+*** Patterns and Streams
+* Server: Audio Elements
+** Synths
+*** Creating synths
+*** Freeing and Releasing Synths
+*** Pausing and Resuming Synths
+*** Setting synth parameters
+** Unit Generators
+** SynthDefs
+** Buffers
+** Groups
+** Busses
+** Node Execution order
+** Recording
+
+
+
