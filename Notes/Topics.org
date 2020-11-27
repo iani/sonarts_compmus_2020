@@ -36,7 +36,11 @@
 *** Shortcuts for conditionals testing for nil: ?, ??, !?
 
 ** Iteration
-do, collect, select, reject, detect, while, loop
+
+*** do, collect, select, reject, detect, while, loop
+
+*** List comprehensions
+
 *** inf as count limit argument in a loop. Danger: use wait to avoid freeze
 
 
@@ -86,10 +90,18 @@ Aspects to show:
 *** Shift phase by rotating an array of numbers 
 *** Change frequency by scaling the signal (with multiply!)
 ***  Signal cancellation through phase difference
-** Quant and synchronization
-** Scales, Tunings and Transposition in Patterns
-** Modifying Patterns while they are playing (in an EventStream)
-*** The EventPattern Class
+** Patterns
+*** Scales, Tunings and Transposition in Patterns
+*** Quant and synchronization
+*** Regular Pattern Stream Generators
+*** Filter Patterns
+*** Advanced Pattern Manipulation Tools: Pkey etc.
+*** Pbind, and its limits
+*** Playing Pbind and its zoo of quasi add-ons in Event
+(are all of them necessary?)
+*** Some exotic pattern types/topics: Fdef, LazyEnvir, Plazy, PlazyEnvir ...
+*** Modifying Patterns while they are playing (in an EventStream)
+**** The EventPattern Class
 ** Demand UGens
 ** Some enigmatic UGens (for non Audio-Engineers)
 
