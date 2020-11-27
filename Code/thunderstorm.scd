@@ -1,8 +1,15 @@
 //: 26 Nov 2020 11:37
-// From:
+// From: https://sccode.org/1-29o
+/*
+«Thunderstorm» by Henk Lasschuit
+on 06 Mar'12 12:52 in rainthunderwind
+
+A thunderstorm, made with SuperCollider. There are three layers of sounds: rain, wind and thunder. There is a global envelope controlling the density of the raindrops and the thunder as well as the frequency of the wind. For the rain there are ticks of noise, but also a few drops falling on metal objects. I like that sound. For the wind there are two identical functions, one plays in the left channel and one plays right. Thunder is the most complicated of them all. It is filtered noise with a slow trigger for making a thunderclap and a fast trigger for the rumbling within a thunder. I added some FreeVerb to make it more spatial.
+
+*/
 //:Global sinusoidal envelope simulates passing of the storm
 (
-//Global sinusoidal envelope simulates passing of the storm
+//Global sinusoidal envelope simulates passing ...
 SynthDef (\global, {
 	arg uitbus, duur;
 	Out.kr(uitbus, EnvGen.kr(Env.sine(duur, 1), doneAction: 2))
