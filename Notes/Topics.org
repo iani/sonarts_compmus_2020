@@ -91,6 +91,13 @@ Aspects to show:
 *** Change frequency by scaling the signal (with multiply!)
 ***  Signal cancellation through phase difference
 ** Patterns
+*** Patterns-Streams-Events basics
+*** Pbind playing mechanism
+*** Pbind examples, main features and variants
+
+Instrument, degree, duration, chords, arpeggio, legato.
+Ppar, Pmono, etc.
+
 *** Scales, Tunings and Transposition in Patterns
 *** Quant and synchronization
 *** Regular Pattern Stream Generators
