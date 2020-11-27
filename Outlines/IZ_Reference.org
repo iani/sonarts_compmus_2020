@@ -1,5 +1,8 @@
-# Ύλη
-* First steps
+# This outline aims at a systematic coverage of SC topics 
+# rather than an introduction for beginners.
+# (Reference Manual rather than Tutorial)
+
+* Introduction, Getting Started
 ** Information online
 *** The SuperCollider website: 
 **** Documentation

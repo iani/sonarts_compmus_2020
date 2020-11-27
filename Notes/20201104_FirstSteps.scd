@@ -21,8 +21,8 @@ b.sqrt;
 b + 2;
 //:
 z
-//:
-a.free;
+//:Again ...
+a = Synth(\default, [\freq, 1200]);
 //:
 a.run(0);
 a.run(1);
