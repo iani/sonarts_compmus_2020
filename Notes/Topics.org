@@ -164,7 +164,7 @@ Important for reading large numbers of files!
 *** Managing i/o bus connections
 *** Many-to-one and One-to many synth link configurations
 
-* Things that need radical cleaning (or in some cases even _TRASHING_) in SCLang Library
+* Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
 ** AbstractResponderFunc
 ** NotificationCenter
 ** Server and its helper funcs such as ServerWatcher
