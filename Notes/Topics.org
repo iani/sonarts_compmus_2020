@@ -165,7 +165,11 @@ Important for reading large numbers of files!
 *** Many-to-one and One-to many synth link configurations
 
 * Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
-** AbstractResponderFunc
-** NotificationCenter
-** Server and its helper funcs such as ServerWatcher
-** Default Event - Event Prototype
+** NotificationCenter (Certainly)
+** AbstractResponderFunc (Very probably)
+** Server and its helper funcs such as ServerWatcher (Painful, but must)
+** Default Event - Event Prototype (Perhaps, perhaps, but would be nice)
+
+Very complex. Would need a deep study before any improvements can be suggested.
+However, it seems that things should and can be simpler.
+
