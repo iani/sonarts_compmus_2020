@@ -199,11 +199,13 @@ Important for reading large numbers of files!
 
 The Signal is not an OutputProxy. It is also not a Buffer.  It holds data in sclang that when sent to scsynth can become a Buffer.
 
+** Can we make aliases so that changes in a parameter are reflected in many things?
+
 * Background - Context - Meta
 
-** Syntax and Semantics
-
 ** From human code to machine code
+
+** Syntax and Semantics
 
 ** Naming things. All that identifier business
 
@@ -211,9 +213,17 @@ Why we need namespaces ... and the sc versions of that. Closures vs Environments
 
 Particularities: The context of closures and environments in threads.  The uses and trappings of that.
 
+** Recursion
+
 ** Symmetry
 
 ** Randomness vs. Chaos
+
+** Measuring perception sense, sensing, meaning
+
+** Signal, Information, Medium, Communication, Code
+
+** Sine, cosine, frequency - and a possible connection to logarithmic perception of pitch
 
 * Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
 ** NotificationCenter (Certainly)
