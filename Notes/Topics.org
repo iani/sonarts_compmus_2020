@@ -53,7 +53,16 @@
 ** Current environment
 *** pushing the current environment
 *** current environment inside closures (!)
-** Event:use / Event:make
+** Events in depth
+*** Event:use / Event:make
+*** Event prototypes
+*** Parent event
+*** Event key/values behaving as methods
+
+When a Function is stored in an Event under a key, one can use message-sending syntax to evaluate that Function. 
+
+** Patterns
+
 ** The dependency mechanism
 *** Raison d'être. Similarity to private methods
 *** Problems: Chosing action
@@ -63,11 +72,31 @@
  Aspects to compare:
  Performance, functionality, interface.
 
-** Routines
+** Clocks, defer, sched
 ** Using the AppClock in GUIs
+** Routines
+** Tasks
+** How Pbind works
+*** what is embedInStream? How does it work
+**** getting the next value from each key-value pair
+**** embedding each stream's value
+** EventPattern as alternative to Pbind
 ** Introspection and its uses
 *** For learning and understanding code
 *** Inside programs
+** Symbols vs. Strings
+** Copying and in-place modification of objects
+
+=reverse= modifies a Signal in-place ...
+=add= may 
+
+** Hash
+** Primitives
+** The structure of the Class Hierarchy Tree
+*** Meta- Classes (Classes of Classes)
+
+Note: Compare to structure of the Class Hierarchy in SmallTalk.
+
 * Music and Audio
 ** Understanding frequency in musical intervals
 *** Logarithmic nature of interval perception
@@ -163,6 +192,28 @@ Important for reading large numbers of files!
 *** Creating and managing Groups in order
 *** Managing i/o bus connections
 *** Many-to-one and One-to many synth link configurations
+
+* Questions and Notes made during teaching
+
+** What is the use of Signal?
+
+The Signal is not an OutputProxy. It is also not a Buffer.  It holds data in sclang that when sent to scsynth can become a Buffer.
+
+* Background - Context - Meta
+
+** Syntax and Semantics
+
+** From human code to machine code
+
+** Naming things. All that identifier business
+
+Why we need namespaces ... and the sc versions of that. Closures vs Environments.
+
+Particularities: The context of closures and environments in threads.  The uses and trappings of that.
+
+** Symmetry
+
+** Randomness vs. Chaos
 
 * Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
 ** NotificationCenter (Certainly)
