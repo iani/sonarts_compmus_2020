@@ -334,6 +334,9 @@ use a closure to count
 ** Resonance
 ** Delays, Decays, Reverb
 ** Wavetable synthesis
+** Plotting signals + data
+** Synthesizing signals (numerically/algorithmically)
+
 * Background - Context - Meta
 
 ** From human code to machine code
