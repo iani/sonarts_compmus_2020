@@ -8,6 +8,14 @@
 **** environment variables
 **** instance variables
 **** class variables
+**** special variables
+***** this
+***** thisFunction
+***** thisMethod
+***** thisProcess
+***** currentEnvironment
+***** super
+***** pi
 ** Collections
 *** Basic types of collections: Array, Dictionary, Set
 *** Important variants: List, Event
@@ -48,6 +56,11 @@
 *** String:interpret vs. String:compile
 *** Interpreter variables
 *** How the interpreter is used during sclang runtime
+** What is =this=?
+*** =this= is the interpreter when in code evaluated by the user directly
+*** =this= is the current object when run in a method compiled in code of a Class
+
+
 ** Init, Startup, ServerBoot actions
 ** Closures
 ** Current environment
@@ -201,6 +214,34 @@ The Signal is not an OutputProxy. It is also not a Buffer.  It holds data in scl
 
 ** Can we make aliases so that changes in a parameter are reflected in many things?
 
+* Exercises
+
+** Arrays
+
+*** Array creation
+
+*** Accessing Array elements
+
+*** Iterating over Arrays
+
+*** Manipulating array structure
+
+*** Numeric operations and applications of Arrays
+
+** Envelopes
+*** Creating Envelopes
+*** Triggering Envelopes
+*** Releasing Envelopes
+
+** Signals
+
+** Buffers
+
+** Mouse control
+
+** Gui control
+
+** 
 * Background - Context - Meta
 
 ** From human code to machine code
