@@ -293,24 +293,47 @@ The Signal is not an OutputProxy. It is also not a Buffer.  It holds data in scl
 
 ** Buffers
 
+*** Play a buffer reversed (back to front)
+
+*** Play a buffer starting from the middle of the buffer
+
+*** Buffer grains
+
 ** Mouse control
 
 ** Gui control
-
+*** using defer in GUIs
 ** Buses and Synth IO
 ** Synth Order
 ** Routines
 ** Patterns + Streams
 ** Events
+*** changing the instrument (synthdef used)
+*** playing chords
+*** synchronising
+*** monophonic
+*** legato
+*** arpeggio
+** Sched and Clocks
+*** AppClock - TempoClock - SystemClock
 ** Closures
 
 what is the value of this in the following cases: ... 
-** Scales
+
+use a closure to count
+** Scales and Tunings
+*** midi - cents - midicps
 ** Demand UGens
 ** Duty and TDuty
 ** linear and exponential range use and conversion
 ** Line
 ** ControlSpecs
+** Additive Synthesis
+** Subtractive Synthesis
+** Spectral Processing
+** Resonance
+** Delays, Decays, Reverb
+** Wavetable synthesis
 * Background - Context - Meta
 
 ** From human code to machine code
