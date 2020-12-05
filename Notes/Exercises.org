@@ -1,0 +1,163 @@
+* Arrays
+
+** Array creation
+*** [\a, \b, \c]
+*** Array.newClear
+*** Array.fill
+*** Array.rand
+*** (1..10)
+*** (1, 1.5 .. 10)
+*** Array.series
+*** Array.geom
+*** Array.fib
+*** Array.rand
+*** Array.rand2
+*** Array.linrand
+*** Array.exprand
+*** Array.interpolation
+
+** Accessing Array elements
+
+*** [1, 2, 3][1]
+*** (1..10)[5..]
+*** (1..10)[..2]
+*** =(1..10)[[1,3]]=
+*** (1..10)@0
+*** (1..10)@12
+*** (1..10)@@12
+*** (1..10).at(0)
+*** (1..10).at(20)
+*** (1..10).clipAt(20)
+*** (1..10).wrapAt(20)
+*** (1..10).foldAt(20)
+*** (1..10).first;
+*** (1..10).last;
+*** [3, 4, 5]@|@[6, 8]
+*** [3, 4, 5]|@|6
+** Searching in Arrays
+*** indexOf
+*** indicesOf
+*** indexOfEqual
+*** indicesOfEqual
+*** includes
+** Replacing Array elements
+*** (1..10).put(3, \x);
+*** =(1..10)[[1,3]] = [\x, \y];=
+** Iterating over Arrays
+*** (40..50) do: { ... }
+*** (40..50) collect: { ... }
+*** (40..50) select: { ... }
+*** (40..50) reject: { ... }
+** Manipulating array structure
+*** flop
+*** flat
+*** bubble
+*** curdle
+*** scramble
+*** stutter
+*** pyramid
+*** j operations
+** Numeric operations and applications of Arrays
+*** Adverbs for binary operators
+
+* Control structures
+
+** if () { } { }
+** while
+** loop
+** case
+** switch
+** ?
+** !?
+* List comprehensions
+* Returning results
+** ^
+* Synth Parameter Control
+* Freeing and Releasing Synths
+** 
+* Envelopes
+** Creating Envelopes
+** Triggering Envelopes
+** Releasing Envelopes
+
+* Signals
+
+* Buffers
+
+** Play a buffer reversed (back to front)
+
+** Play a buffer starting from the middle of the buffer
+
+** Buffer grains
+
+* Mouse control
+
+* Gui control
+** using defer in GUIs
+* Buses and Synth IO
+* Synth Order
+* Routines
+* Patterns + Streams
+** Sequential Patterns
+** Random Patterns
+** Combining Patterns
+*** Arithmetic operations on Patterns
+**** x adverb for binary operators on Streams
+*** Nesting Patterns
+*** Pn vs Pstutter
+*** Filter Patterns
+
+* Events
+** changing the instrument (synthdef used)
+** playing chords
+** synchronising
+** monophonic
+** legato
+** arpeggio
+* Sched and Clocks
+** AppClock - TempoClock - SystemClock
+* Closures
+
+what is the value of this in the following cases: ... 
+
+use a closure to count
+* Scales and Tunings
+** midi - cents - midicps
+* Demand UGens
+* Duty and TDuty
+* linear and exponential range use and conversion
+* Line
+* ControlSpecs
+* UGens and Synthesis Techniques
+** Additive Synthesis
+** Subtractive Synthesis
+*** Filter Ugens
+** Resonance
+*** Ringz
+*** Resonz
+*** Klank
+*** DynKlank,
+*** Klang
+** Spectral Processing
+** Delays, Decays, Reverb
+*** JPverb
+*** JPverbRaw
+*** GVerb
+*** Delay
+*** Decay
+*** Comb
+*** AllPass
+
+** Wavetable synthesis
+** Noise and Chaos UGens
+*** Kinds of Noise: WhiteNoise
+*** Kinds of LFNoise:
+*** Chaos UGens
+
+* Plotting signals + data
+* Synthesizing signals (numerically/algorithmically)
+* Multichannel expansion
+* Multichannel output
+** Pan2, PanAz
+** Ambisonics
+* File IO
