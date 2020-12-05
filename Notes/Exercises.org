@@ -1,5 +1,28 @@
-* Arrays
+* Variables
 
+** Interpreter Variables
+
+Store a synth in an interpreter variable, and free it.
+
+Store a synth in an interpreter variable, and release it, with a release duration of 7 seconds.
+
+** Environment Variables
+
+** Variables in closures
+
+** Variables in methods
+
+** Arguments as variables
+
+** Special Variables
+
+What is the value of =this= in the following code: 
+
+
+
+What is the value of =this= in the following code: 
+
+* Arrays
 ** Array creation
 *** [\a, \b, \c]
 *** Array.newClear

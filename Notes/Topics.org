@@ -39,6 +39,8 @@
 **** flop, flat, bubble, curdle
 **** Specialized structure manipulations: reverse, rotate, stutter, mirror, pyramid
 **** J-aspects in SuperCollider
+*** =add=, =addAll=, =remove=
+
 ** Conditional Structures
 *** if, case, switch.
 *** Shortcuts for conditionals testing for nil: ?, ??, !?
@@ -48,6 +50,8 @@
 *** do, collect, select, reject, detect, while, loop
 
 *** List comprehensions
+
+*** The message =all=
 
 *** inf as count limit argument in a loop. Danger: use wait to avoid freeze
 
@@ -75,7 +79,18 @@
 When a Function is stored in an Event under a key, one can use message-sending syntax to evaluate that Function. 
 
 ** Patterns
+*** Combining patterns
+**** Arithmetic operations on patterns
+**** Nesting patterns
+**** Filtering patterns
 
+** Streams
+
+*** Advanced operations on streams
+**** all
+**** subSample
+
+...
 ** The dependency mechanism
 *** Raison d'être. Similarity to private methods
 *** Problems: Chosing action
