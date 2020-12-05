@@ -86,6 +86,12 @@ When a Function is stored in an Event under a key, one can use message-sending s
 
 ** Streams
 
+*** Stream basics
+
+**** Creating a Stream
+
+**** Routines can work as streams (so what is the difference???????)
+**** next and nextN
 *** Advanced operations on streams
 **** all
 **** subSample
