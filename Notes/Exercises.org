@@ -1,186 +1,223 @@
-* Variables
 
-** Interpreter Variables
+* Beginner
 
-Store a synth in an interpreter variable, and free it.
+** variables
+*** start a sound and stop it
+*** start a sound and stop it with a decay (fade out time) of 5 seconds
+*** start 2 sounds and stop the first one without stopping the second one
 
-Store a synth in an interpreter variable, and release it, with a release duration of 7 seconds.
+*** Find and correct the error here
 
-** Environment Variables
+a = 1;
+beta = a sqrt: 2;
+a + beta;
 
-** Variables in closures
+* Intermediate
 
-** Variables in methods
+** start 89 sounds, then stop the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th sound at once, all together.
 
-** Arguments as variables
+More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th, without typing those numbers in the code.
 
-** Special Variables
+** create a function that counts, starting from 5.
 
-What is the value of =this= in the following code: 
+** create a function that produces the fibonacci numbers
+
+* Advanced
+
+** Program polyrhythms using demand UGens.  Can you change the number of beats in a cycle while playing?
+** Program the 75/16 Tathighitatom pattern from the Extreme Math Nerd Music Youtube video
+** Devise a way to play Tisram and Gati in patterns - in a single melody
+** Devise a way to play Gamakas in patterns
+** Devise a way to play Brighas in  patterns
+** Devise a way to play polyrhythmic tisram in patterns - in parallel, synchronized sharing a basic beat
+** Program a list pattern which gives access to the list data of the stream for on-the-fly modification
+** Program a way to share a data structure in multiple patterns playing in parallel.  
+** Program a way to select pitches or harmonic structures by solving optimization problems on the fly in a polyphonic pattern sharing a harmonic field data structure
+* List of topics to cover
+** Variables
+
+*** Interpreter Variables
+
+ Store a synth in an interpreter variable, and free it.
+
+ Store a synth in an interpreter variable, and release it, with a release duration of 7 seconds.
+
+*** Environment Variables
+
+*** Variables in closures
+
+*** Variables in methods
+
+*** Arguments as variables
+
+*** Special Variables
+
+ What is the value of =this= in the following code: 
 
 
 
-What is the value of =this= in the following code: 
+ What is the value of =this= in the following code: 
 
-* Arrays
-** Array creation
-*** [\a, \b, \c]
-*** Array.newClear
-*** Array.fill
-*** Array.rand
-*** (1..10)
-*** (1, 1.5 .. 10)
-*** Array.series
-*** Array.geom
-*** Array.fib
-*** Array.rand
-*** Array.rand2
-*** Array.linrand
-*** Array.exprand
-*** Array.interpolation
+** Arrays
+*** Array creation
+**** [\a, \b, \c]
+**** Array.newClear
+**** Array.fill
+**** Array.rand
+**** (1..10)
+**** (1, 1.5 .. 10)
+**** Array.series
+**** Array.geom
+**** Array.fib
+**** Array.rand
+**** Array.rand2
+**** Array.linrand
+**** Array.exprand
+**** Array.interpolation
 
-** Accessing Array elements
+*** Accessing Array elements
 
-*** [1, 2, 3][1]
-*** (1..10)[5..]
-*** (1..10)[..2]
-*** =(1..10)[[1,3]]=
-*** (1..10)@0
-*** (1..10)@12
-*** (1..10)@@12
-*** (1..10).at(0)
-*** (1..10).at(20)
-*** (1..10).clipAt(20)
-*** (1..10).wrapAt(20)
-*** (1..10).foldAt(20)
-*** (1..10).first;
-*** (1..10).last;
-*** [3, 4, 5]@|@[6, 8]
-*** [3, 4, 5]|@|6
-** Searching in Arrays
-*** indexOf
-*** indicesOf
-*** indexOfEqual
-*** indicesOfEqual
-*** includes
-** Replacing Array elements
-*** (1..10).put(3, \x);
-*** =(1..10)[[1,3]] = [\x, \y];=
-** Iterating over Arrays
-*** (40..50) do: { ... }
-*** (40..50) collect: { ... }
-*** (40..50) select: { ... }
-*** (40..50) reject: { ... }
-** Manipulating array structure
-*** flop
-*** flat
-*** bubble
-*** curdle
-*** scramble
-*** stutter
-*** pyramid
-*** j operations
-** Numeric operations and applications of Arrays
-*** Adverbs for binary operators
+**** [1, 2, 3][1]
+**** (1..10)[5..]
+**** (1..10)[..2]
+**** =(1..10)[[1,3]]=
+**** (1..10)@0
+**** (1..10)@12
+**** (1..10)@@12
+**** (1..10).at(0)
+**** (1..10).at(20)
+**** (1..10).clipAt(20)
+**** (1..10).wrapAt(20)
+**** (1..10).foldAt(20)
+**** (1..10).first;
+**** (1..10).last;
+**** [3, 4, 5]@|@[6, 8]
+**** [3, 4, 5]|@|6
+*** Searching in Arrays
+**** indexOf
+**** indicesOf
+**** indexOfEqual
+**** indicesOfEqual
+**** includes
+*** Replacing Array elements
+**** (1..10).put(3, \x);
+**** =(1..10)[[1,3]] = [\x, \y];=
+*** Iterating over Arrays
+**** (40..50) do: { ... }
+**** (40..50) collect: { ... }
+**** (40..50) select: { ... }
+**** (40..50) reject: { ... }
+*** Manipulating array structure
+**** flop
+**** flat
+**** bubble
+**** curdle
+**** scramble
+**** stutter
+**** pyramid
+**** j operations
+*** Numeric operations and applications of Arrays
+**** Adverbs for binary operators
 
-* Control structures
+** Control structures
 
-** if () { } { }
-** while
-** loop
-** case
-** switch
-** ?
-** !?
-* List comprehensions
-* Returning results
-** ^
-* Synth Parameter Control
-* Freeing and Releasing Synths
-** 
-* Envelopes
-** Creating Envelopes
-** Triggering Envelopes
-** Releasing Envelopes
+*** if () { } { }
+*** while
+*** loop
+*** case
+*** switch
+*** ?
+*** !?
+** List comprehensions
+** Returning results
+*** ^
+** Synth Parameter Control
+** Freeing and Releasing Synths
+*** 
+** Envelopes
+*** Creating Envelopes
+*** Triggering Envelopes
+*** Releasing Envelopes
 
-* Signals
+** Signals
 
-* Buffers
+** Buffers
 
-** Play a buffer reversed (back to front)
+*** Play a buffer reversed (back to front)
 
-** Play a buffer starting from the middle of the buffer
+*** Play a buffer starting from the middle of the buffer
 
-** Buffer grains
+*** Buffer grains
 
-* Mouse control
+** Mouse control
 
-* Gui control
-** using defer in GUIs
-* Buses and Synth IO
-* Synth Order
-* Routines
-* Patterns + Streams
-** Sequential Patterns
-** Random Patterns
-** Combining Patterns
-*** Arithmetic operations on Patterns
-**** x adverb for binary operators on Streams
-*** Nesting Patterns
-*** Pn vs Pstutter
-*** Filter Patterns
+** Gui control
+*** using defer in GUIs
+** Buses and Synth IO
+** Synth Order
+** Routines
+** Patterns + Streams
+*** Sequential Patterns
+*** Random Patterns
+*** Combining Patterns
+**** Arithmetic operations on Patterns
+***** x adverb for binary operators on Streams
+**** Nesting Patterns
+**** Pn vs Pstutter
+**** Filter Patterns
 
-* Events
-** changing the instrument (synthdef used)
-** playing chords
-** synchronising
-** monophonic
-** legato
-** arpeggio
-* Sched and Clocks
-** AppClock - TempoClock - SystemClock
-* Closures
+** Events
+*** changing the instrument (synthdef used)
+*** playing chords
+*** synchronising
+*** monophonic
+*** legato
+*** arpeggio
+** Sched and Clocks
+*** AppClock - TempoClock - SystemClock
+** Closures
 
-what is the value of this in the following cases: ... 
+ what is the value of this in the following cases: ... 
 
-use a closure to count
-* Scales and Tunings
-** midi - cents - midicps
-* Demand UGens
-* Duty and TDuty
-* linear and exponential range use and conversion
-* Line
-* ControlSpecs
-* UGens and Synthesis Techniques
-** Additive Synthesis
-** Subtractive Synthesis
-*** Filter Ugens
-** Resonance
-*** Ringz
-*** Resonz
-*** Klank
-*** DynKlank,
-*** Klang
-** Spectral Processing
-** Delays, Decays, Reverb
-*** JPverb
-*** JPverbRaw
-*** GVerb
-*** Delay
-*** Decay
-*** Comb
-*** AllPass
+ use a closure to count
+** Scales and Tunings
+*** midi - cents - midicps
+** Demand UGens
+** Duty and TDuty
+** linear and exponential range use and conversion
+** Line
+** ControlSpecs
+** UGens and Synthesis Techniques
+*** Additive Synthesis
+*** Subtractive Synthesis
+**** Filter Ugens
+*** Resonance
+**** Ringz
+**** Resonz
+**** Klank
+**** DynKlank,
+**** Klang
+*** Spectral Processing
+*** Delays, Decays, Reverb
+**** JPverb
+**** JPverbRaw
+**** GVerb
+**** Delay
+**** Decay
+**** Comb
+**** AllPass
 
-** Wavetable synthesis
-** Noise and Chaos UGens
-*** Kinds of Noise: WhiteNoise
-*** Kinds of LFNoise:
-*** Chaos UGens
+*** Wavetable synthesis
+*** Noise and Chaos UGens
+**** Kinds of Noise: WhiteNoise
+**** Kinds of LFNoise:
+**** Chaos UGens
 
-* Plotting signals + data
-* Synthesizing signals (numerically/algorithmically)
-* Multichannel expansion
-* Multichannel output
-** Pan2, PanAz
-** Ambisonics
-* File IO
+** Plotting signals + data
+** Synthesizing signals (numerically/algorithmically)
+** Multichannel expansion
+** Multichannel output
+*** Pan2, PanAz
+*** Ambisonics
+** File IO
+
