@@ -9,7 +9,7 @@
 *** Find and correct the error here
 
 a = 1;
-beta = a sqrt: 2;
+beta = a.sqrt;
 a + beta;
 
 ** SynthDefs
@@ -28,9 +28,7 @@ a + beta;
  [ [ 'a', 'd' ], [ 'b', 'c' ], [ 'c', 'b' ], [ 'd', 'a' ] ]
 
 *** solution
-
 **** As Function
-
 #+begin_src sclang
 //: 1: define the function
 ~mirror2 = { | list |
@@ -42,9 +40,7 @@ a + beta;
 ~mirror2.((1..5));
 // Returns: [ [ 1, 5 ], [ 2, 4 ], [ 3, 3 ], [ 4, 2 ], [ 5, 1 ] ]
 #+end_src
-
 **** As Method
-
 #+begin_src sclang
 + SequenceableCollection {
      mpairs {
@@ -59,6 +55,14 @@ More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th
 
 ** create a function that counts to infinity, starting from 5.
 ** create a function that produces the fibonacci numbers
+** create a function or method for recursing over all elements of a tree
+
+Specification / Parts of the function:
+
+1. a function/method to perform if the node of the tree is a tree (or collection?)
+2. a function/method to perform if the node of the tree is a leaf
+3. a function to perform on a tree to return its immediate subtree branches
+
 ** Design a synth algorithm using additive synthesis that produces a pulse wave 
 ** Design a synth algorithm using additive synthesis that produces a saw wave 
 ** Program the jumping pattern from Intro to Carrnatic Music
