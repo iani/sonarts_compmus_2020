@@ -18,9 +18,10 @@ a + beta;
 
 More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th, without typing those numbers in the code.
 
-** create a function that counts, starting from 5.
-
+** create a function that counts to infinity, starting from 5.
 ** create a function that produces the fibonacci numbers
+** Design a synth algorithm using additive synthesis that produces a pulse wave 
+** Design a synth algorithm using additive synthesis that produces a saw wave 
 
 * Advanced
 
@@ -44,6 +45,11 @@ https://www.youtube.com/watch?v=6aHWJKJe9mU
 ** Devise a way to play Gamakas in patterns
 ** Devise a way to play Brighas in  patterns
 ** Devise a way to play polyrhythmic tisram in patterns - in parallel, synchronized sharing a basic beat
+** Program the helikon and kanon from the Αρμονικά of Κλαύδιος Πτολεμαίος
+   :PROPERTIES:
+   :DATE:     <2020-12-11 Fri 14:55>
+   :END:
+
 ** Program a list pattern which gives access to the list data of the stream for on-the-fly modification
 ** Program a way to share a data structure in multiple patterns playing in parallel.  
 ** Program a way to select pitches or harmonic structures by solving optimization problems on the fly in a polyphonic pattern sharing a harmonic field data structure
