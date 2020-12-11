@@ -12,7 +12,46 @@ a = 1;
 beta = a sqrt: 2;
 a + beta;
 
+** SynthDefs
+
+** Envelopes
+
+** Arrays
+
 * Intermediate
+
+** given an array of n elements, create an array that pairs each element of the array with the element of the same array in reverse order. 
+
+*** problem
+ For example: Let us call the method that does the operation mPairs.
+ Then [ 'a', 'b', 'c', 'd' ].mpairs should return: 
+ [ [ 'a', 'd' ], [ 'b', 'c' ], [ 'c', 'b' ], [ 'd', 'a' ] ]
+
+*** solution
+
+**** As Function
+
+#+begin_src sclang
+//: 1: define the function
+~mirror2 = { | list |
+     list.mirror2.clump(list.size).flop;
+};
+//: 2: test the function
+~mirror2.((1..4));
+// Returns: [ [ 1, 4 ], [ 2, 3 ], [ 3, 2 ], [ 4, 1 ] ]
+~mirror2.((1..5));
+// Returns: [ [ 1, 5 ], [ 2, 4 ], [ 3, 3 ], [ 4, 2 ], [ 5, 1 ] ]
+#+end_src
+
+**** As Method
+
+#+begin_src sclang
++ SequenceableCollection {
+     mpairs {
+          ^this.mirror2.clump(this.size).flop;
+     }
+}
+#+end_src
 
 ** start 89 sounds, then stop the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th sound at once, all together.
 
@@ -22,11 +61,17 @@ More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th
 ** create a function that produces the fibonacci numbers
 ** Design a synth algorithm using additive synthesis that produces a pulse wave 
 ** Design a synth algorithm using additive synthesis that produces a saw wave 
+** Program the jumping pattern from Intro to Carrnatic Music
+   :PROPERTIES:
+   :DATE:     <2020-12-11 Fri 15:03>
+   :END:
+
+
 
 * Advanced
 
 ** Program polyrhythms using demand UGens.  Can you change the number of beats in a cycle while playing?
-** Program the 75/16 Tathighinatom pattern from the Extreme Math Nerd Music Youtube video
+** Program the 75/16 Tatighinathom pattern from the Extreme Math Nerd Music Youtube video
    :PROPERTIES:
    :DATE:     <2020-12-11 Fri 14:30>
    :END:
