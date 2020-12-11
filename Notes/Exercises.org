@@ -25,7 +25,21 @@ More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th
 * Advanced
 
 ** Program polyrhythms using demand UGens.  Can you change the number of beats in a cycle while playing?
-** Program the 75/16 Tathighitatom pattern from the Extreme Math Nerd Music Youtube video
+** Program the 75/16 Tathighinatom pattern from the Extreme Math Nerd Music Youtube video
+   :PROPERTIES:
+   :DATE:     <2020-12-11 Fri 14:30>
+   :END:
+
+https://www.youtube.com/watch?v=-mS06lEmY3s
+
+** Program the Twinkle Twinkle Little Star pattern by Manjunath - with sample cutting
+   :PROPERTIES:
+   :DATE:     <2020-12-11 Fri 14:41>
+   :END:
+
+OFF BEAT TWINKLE TWINKLE LITTLE STAR
+https://www.youtube.com/watch?v=6aHWJKJe9mU
+
 ** Devise a way to play Tisram and Gati in patterns - in a single melody
 ** Devise a way to play Gamakas in patterns
 ** Devise a way to play Brighas in  patterns
