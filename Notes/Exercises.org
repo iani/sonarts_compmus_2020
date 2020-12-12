@@ -20,12 +20,15 @@ a + beta;
 
 * Intermediate
 
-** given an array of n elements, create an array that pairs each element of the array with the element of the same array in reverse order. 
+** "=mpairs=": given an array of n elements, create an array that pairs each element of the array with the element of the same array in reverse order. 
 
 *** problem
- For example: Let us call the method that does the operation mPairs.
- Then [ 'a', 'b', 'c', 'd' ].mpairs should return: 
+ For example: Let us call the method that does the operation =mpairs=.
+ Then =[ 'a', 'b', 'c', 'd' ].mpairs= should return: 
+
+#+begin_src sclang
  [ [ 'a', 'd' ], [ 'b', 'c' ], [ 'c', 'b' ], [ 'd', 'a' ] ]
+#+end_src
 
 *** solution
 **** As Function
@@ -51,17 +54,42 @@ a + beta;
 
 ** start 89 sounds, then stop the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th sound at once, all together.
 
-More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th, without typing those numbers in the code.
+More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th synth, without typing those numbers in the code.
 
 ** create a function that counts to infinity, starting from 5.
 ** create a function that produces the fibonacci numbers
-** create a function or method for recursing over all elements of a tree
+** create a function or method =recurse= for recursing over all elements of a tree
+*** Specification / Parts of the function:
 
-Specification / Parts of the function:
+ 1. a function/method to perform if the node of the tree is a tree (or collection?)
+ 2. a function/method to perform if the node of the tree is a leaf
+ 3. a function to perform on a tree to return its immediate subtree branches
+*** Implementation hint: Use =respondsTo:=
+    :PROPERTIES:
+    :DATE:     <2020-12-12 Sat 02:57>
+    :END:
 
-1. a function/method to perform if the node of the tree is a tree (or collection?)
-2. a function/method to perform if the node of the tree is a leaf
-3. a function to perform on a tree to return its immediate subtree branches
+Hint: You can use the message =respondsTo:= to determine whether the receiver can iterate.
+
+Further problem: Some types of objects may need a different message to produce their list of branches. Should this be given as method name (Symbol), or as a function in an additional argument "=iterator=" (point 3 above)?
+
+For example, if applying =recurse= over a Class to recurse on its subclass tree, the =iterator= message should be =subclasses=. 
+
+Draft: 
+
+#+begin_src sclang
+f = { | receiver, ifBranch, ifFleaf /*, iterator = \do */ |
+    if (receiver respondsTo: \do) { // alternatively to \do: iterator
+        ifBranch.(receiver);
+    }{
+        ifLeaf.(receiver);
+        // alternatively: (receiver.perform(iterator) do: ... )
+        receiver do: { | branch |
+            f.(branch, ifBrach, ifFleaf /*, iterator */);
+        }
+    }
+};
+#+end_src
 
 ** Design a synth algorithm using additive synthesis that produces a pulse wave 
 ** Design a synth algorithm using additive synthesis that produces a saw wave 
@@ -74,6 +102,17 @@ Specification / Parts of the function:
 
 * Advanced
 
+** Define a method or class for playing a =Pseq= as a sequence of pairs generated with the =mpairs= method defined above under [[Intermediate]] exercises. 
+   :PROPERTIES:
+   :DATE:     <2020-12-12 Sat 03:13>
+   :END:
+
+** Which other patterns besides =Pseq= can work with =mpairs=?
+   :PROPERTIES:
+   :DATE:     <2020-12-12 Sat 03:14>
+   :END:
+
+** 
 ** Program polyrhythms using demand UGens.  Can you change the number of beats in a cycle while playing?
 ** Program the 75/16 Tatighinathom pattern from the Extreme Math Nerd Music Youtube video
    :PROPERTIES:
