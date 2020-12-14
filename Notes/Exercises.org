@@ -102,7 +102,7 @@ f = { | receiver, ifBranch, ifFleaf /*, iterator = \do */ |
 
 Hint: Use + operation to combine a Pseq with a nested pattern.
 
-** Write a class that performs arithmetic on rational numbers
+** Write a class for representing and that performing arithmetic on rational numbers
 
 Define a binary operator for producing a rational integer from a numerator and a denominator.
 
@@ -123,11 +123,21 @@ http://www.blackwasp.co.uk/RationalNumberArithmetic.aspx
    :PROPERTIES:
    :DATE:     <2020-12-14 Mon 15:03>
    :END:
+** Design a way to play a pattern with crossfade between events
 
+Each event plays a function that contains the crossfade envelope, and plays it with a sound function as signal input.
+
+Draft: 
+#+begin_src sclang
+var func;
+func = { PinkNoise.ar(0.1) };
+
+{ func * Env.adsr(1, 1, 1, 1, 1).kr(2) }
+#+end_src
 
 * Advanced
 
-** Polyrhythms, Konnakol 
+** Polyrhythms, Konnakol
 *** Program polyrhythms using demand UGens.  Can you change the number of beats in a cycle while playing?
 *** Program the 75/16 Tatighinathom pattern from the Extreme Math Nerd Music Youtube video
     :PROPERTIES:
@@ -146,6 +156,10 @@ http://www.blackwasp.co.uk/RationalNumberArithmetic.aspx
 
 
 ** Indian Music Theory - Vocal ornaments + Pattern combinations
+*** Program the 22 shrutis using rational numbers
+
+https://en.wikipedia.org/wiki/Shruti_(music)
+
 *** Devise a way to play Tisram and Gati in patterns - in a single melody
 *** Devise a way to play Gamakas in patterns
 *** Devise a way to play Brighas in  patterns
@@ -167,6 +181,12 @@ https://en.wikipedia.org/wiki/Nicholas_Mercator
     :END:
 
 http://www.pandoura.gr/armoniko-egxeiridio/ti-den-mas-eipan-gia-to-xrisantho
+*** Program the tetrachords from the Αρμονικά of Κλαύδιος Πτολεμαίος
+    :PROPERTIES:
+    :DATE:     <2020-12-14 Mon 16:33>
+    :END:
+
+(Use the rational number class from Intermediate exercises above).
 
 *** Program the helikon and kanon from the Αρμονικά of Κλαύδιος Πτολεμαίος
     :PROPERTIES:
@@ -198,11 +218,18 @@ Messiaen: Quatre Études de Rythme, with score - II. Mode de valeurs et d'intens
     :DATE:     <2020-12-14 Mon 15:07>
     :END:
 *** Program A. Schoenberg's (equal tempered) tone net
-*** 
+*** Program M. Vogel's 3-5-7 just tone net and its 171-pitch/octave temered approximation
+    :PROPERTIES:
+    :DATE:     <2020-12-14 Mon 17:55>
+    :END:
+
 *** Program Schillinger's rhythmic + melodic patterns
 
 ** New types of Patterns
-*** Define a method or class for playing a =Pseq= as a sequence of pairs generated with the =mpairs= method defined above under [[Intermediate]] exercises. 
+*** Palindromes: Fine a method or class for converting a sequential pattern into its palindrome
+
+*** Define a method or class for playing a =Pseq= as a sequence of pairs generated with the =mpairs= method defined above under [[Intermediate]] exercises (i.e. concurrent palindrome with itself). 
+
     :PROPERTIES:
     :DATE:     <2020-12-12 Sat 03:13>
     :END:
@@ -210,6 +237,11 @@ Messiaen: Quatre Études de Rythme, with score - II. Mode de valeurs et d'intens
 *** Which other patterns besides =Pseq= can work with =mpairs=?
     :PROPERTIES:
     :DATE:     <2020-12-12 Sat 03:14>
+    :END:
+
+*** Program a way to play concurrently 2^n permutations of a Fibonacci beat pattern
+    :PROPERTIES:
+    :DATE:     <2020-12-14 Mon 17:54>
     :END:
 
 *** Program a list pattern which gives access to the list data of the stream for on-the-fly modification
