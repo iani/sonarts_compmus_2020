@@ -97,8 +97,13 @@ f = { | receiver, ifBranch, ifFleaf /*, iterator = \do */ |
    :PROPERTIES:
    :DATE:     <2020-12-11 Fri 15:03>
    :END:
+** Write a class that performs arithmetic on rational numbers
 
+Define a binary operator for producing a rational integer from a numerator and a denominator.
 
+A rational numbers should print as: (numerator/denominator), for example: (2/3)
+
+Rational numbers should automatically simplify to smallest numerator/denominator.
 
 * Advanced
 
