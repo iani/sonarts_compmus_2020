@@ -22,6 +22,8 @@ Particularities: The context of closures and environments in threads.  The uses 
 
 ** Sine, cosine, frequency - and a possible connection to logarithmic perception of pitch
 
+https://el.wikipedia.org/wiki/%CE%94%CE%B9%CE%AC%CF%83%CF%84%CE%B7%CE%BC%CE%B1_(%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AE)
+
 ** Ancient Greek Music Theory
 
 ** Indian Music Theory
