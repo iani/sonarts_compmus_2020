@@ -80,6 +80,47 @@ When a Function is stored in an Event under a key, one can use message-sending s
 
 ** Patterns
 
+*** Basic pattern examples
+
+**** Getting a stream from a pattern
+
+**** Sequential patterns
+
+***** Pseq
+
+***** Pseries
+
+***** Pser
+
+**** Random patterns
+
+***** Pbrown
+
+***** Prand
+
+***** Pwhite
+
+*** Combining patterns
+**** Nesting patterns
+**** Arithmetic operations on patterns
+
+**** Patterns for repeating patterns or their elements
+
+***** Pn
+
+***** Pstutter
+
+**** Patterns for filtering elements of other patterns
+
+***** Pcollect
+
+***** Pselect
+
+***** Preject
+
+
+
+
 *** Overview of Pattern classes
     :PROPERTIES:
     :DATE:     <2020-12-12 Sat 00:46>
@@ -252,9 +293,7 @@ The resulting subtree is dissussed in the following sections
 
 
 *** Pseries
-
 *** Pfunc
-
 *** Pstep
 
 **** [ Pseg ]
@@ -289,174 +328,168 @@ The resulting subtree is dissussed in the following sections
 
 **** [ Pgbrown ]
 
-**** EventPattern
 
-**** Ppoisson
+*** Ppoisson
 
-**** Spawner
+*** Spawner
 
-**** Pget
+*** Pget
 
-**** Pmono
+*** Pmono
 
-***** [ PmonoArtic ]
+**** [ PmonoArtic ]
 
-**** PbindProxy
+*** PbindProxy
 
-**** Pkey
+*** Pkey
 
-**** FilterPattern
+*** FilterPattern
 
-*****    [ Psetpre
+****    [ Psetpre
 
-****** [ Paddpre 
+***** [ Paddpre 
 
-****** Pmulpre ]
+***** Pmulpre ]
        
-****** Pstutter
+***** Pstutter
        
-*******   [ PdurStutter ]
+******   [ PdurStutter ]
 
-****** PfinQuant
+***** PfinQuant
        
-****** Pbus
+***** Pbus
        
-****** Plambda
+***** Plambda
        
-****** Pbindf
+***** Pbindf
        
-****** Pdiff
+***** Pdiff
        
-****** FuncFilterPattern
+***** FuncFilterPattern
        
-*******   [ Pselect 
+******   [ Pselect 
 
-******* Pfset 
+****** Pfset 
 
-******* Pwhile 
+****** Pwhile 
 
-******* Preject 
+****** Preject 
 
-******* Pcollect ]
+****** Pcollect ]
 
-****** Psym
+***** Psym
        
-******* [ Psym1
+****** [ Psym1
          
-******* Ptsym
+****** Ptsym
          
-*******  Pnsym
-********    [ Pnsym1 ]
-****** Prorate
-****** Pstretch
-******* [ Pstretchp ]
-****** Pfin
-*******   [ Pfinval ]
-****** Pfindur
-****** PfadeIn
-******* [ PfadeOut ]
-****** Pavaroh
-****** Pdrop
-****** Pclump
-*******   [ Pflatten ]
-****** Pwrap
-****** Ptrace
-****** Prewrite
-****** Pprotect
-****** Psync
-****** Pplayer
-****** Plag
-****** Pseed
-****** Pset
-******* [ Pmul
-******* Padd
-******* Psetp
-******** [ 
-******** Paddp 
-******** Pmulp ]
-         ]
-****** Pclutch
-****** PAbstractGroup
-******* [ PparGroup 
-******* Pgroup ]
-****** Pn
-******* [ Pgate ]
-****** Pspawn
-****** Pfx
-******* [ Pfxb ]
-****** Pconst
-     ]
-***** Pcauchy
-***** Pdict
-***** Peventmod
-***** PatternProxy
-****** [ Pdefn
-****** TaskProxy
-******* [ Tdef
-******* EventPatternProxy
-********  [ Pdef
-********* [ Pbindef ]
-            ]
-          ]
+******  Pnsym
+*******    [ Pnsym1 ]
+***** Prorate
+***** Pstretch
+****** [ Pstretchp ]
+***** Pfin
+******   [ Pfinval ]
+***** Pfindur
+***** PfadeIn
+****** [ PfadeOut ]
+***** Pavaroh
+***** Pdrop
+***** Pclump
+******   [ Pflatten ]
+***** Pwrap
+***** Ptrace
+***** Prewrite
+***** Pprotect
+***** Psync
+***** Pplayer
+***** Plag
+***** Pseed
+***** Pset
+****** [ Pmul
+****** Padd
+****** Psetp
+******* [ 
+******* Paddp 
+******* Pmulp ]
         ]
-***** Phenon
-***** Pbeta
-***** Pgauss
-***** Penvir
-***** Pnaryop
-***** [ PdegreeToKey ]
-***** Ptime
-***** Pbind
-***** Pproto
-***** ListPattern
-****** [Pwalk
-****** Ppar
-****** [ Pgpar
-******* [ Pgtpar ]
-******* Ptpar
-        ]
-****** Pwrand
-****** Pdfsm
-****** Pshuf
-****** Pseq
-*******  [ Ppatlace 
-******* Pser 
-******* Place ]
-****** Pslide
-****** Ptuple
-****** Prand
-****** Pfpar
-****** Pxrand
-****** Pfsm
-     ]
-***** Pswitch
-****** [ Pswitch1 ]
-***** Pbinop
-***** Pfhn
-***** Pwhite
-****** [ Pmeanrand 
-****** Plprand 
-****** Pexprand 
-****** Phprand ]
-***** Pstandard
-***** Pfuncn
-***** Ppatmod
-***** Platoo
-***** Pgbman
-***** PlinCong
-***** Prout
-****** [ Pspawner ]
-***** Plet
-***** Plazy
-****** [ PlazyEnvir
-******* [ PlazyEnvirN ]
-      ]
+***** Pclutch
+***** PAbstractGroup
+****** [ PparGroup 
+****** Pgroup ]
+***** Pn
+****** [ Pgate ]
+***** Pspawn
+***** Pfx
+****** [ Pfxb ]
+***** Pconst
     ]
-
-*** Combining patterns
-**** Arithmetic operations on patterns
-**** Nesting patterns
-**** Filtering patterns
+**** Pcauchy
+**** Pdict
+**** Peventmod
+**** PatternProxy
+***** [ Pdefn
+***** TaskProxy
+****** [ Tdef
+****** EventPatternProxy
+*******  [ Pdef
+******** [ Pbindef ]
+           ]
+         ]
+       ]
+**** Phenon
+**** Pbeta
+**** Pgauss
+**** Penvir
+**** Pnaryop
+**** [ PdegreeToKey ]
+**** Ptime
+**** Pbind
+**** Pproto
+**** ListPattern
+***** [Pwalk
+***** Ppar
+***** [ Pgpar
+****** [ Pgtpar ]
+****** Ptpar
+       ]
+***** Pwrand
+***** Pfsm
+    ]
+***** Pdfsm
+***** Pshuf
+***** Pseq
+******  [ Ppatlace 
+****** Pser 
+****** Place ]
+***** Pslide
+***** Ptuple
+***** Prand
+***** Pfpar
+***** Pxrand
+**** Pswitch
+***** [ Pswitch1 ]
+**** Pbinop
+**** Pfhn
+**** Pwhite
+***** [ Pmeanrand 
+***** Plprand 
+***** Pexprand 
+***** Phprand ]
+**** Pstandard
+**** Pfuncn
+**** Ppatmod
+**** Platoo
+**** Pgbman
+**** PlinCong
+**** Prout
+***** [ Pspawner ]
+**** Plet
+**** Plazy
+***** [ PlazyEnvir
+****** [ PlazyEnvirN ]
+     ]
+   ]
 
 ** Streams
 

@@ -18,6 +18,8 @@ a + beta;
 
 ** Arrays
 
+** Patterns 
+
 * Intermediate
 
 ** "=mpairs=": given an array of n elements, create an array that pairs each element of the array with the element of the same array in reverse order. 
@@ -93,17 +95,33 @@ f = { | receiver, ifBranch, ifFleaf /*, iterator = \do */ |
 
 ** Design a synth algorithm using additive synthesis that produces a pulse wave 
 ** Design a synth algorithm using additive synthesis that produces a saw wave 
-** Program the jumping pattern from Intro to Carrnatic Music
+** Program the jumping pattern from Intro to Carnatic Music
    :PROPERTIES:
    :DATE:     <2020-12-11 Fri 15:03>
    :END:
+
+Hint: Use + operation to combine a Pseq with a nested pattern.
+
 ** Write a class that performs arithmetic on rational numbers
 
 Define a binary operator for producing a rational integer from a numerator and a denominator.
 
-A rational numbers should print as: (numerator/denominator), for example: (2/3)
+A rational numbers should print as: (numerator/denominator). For example: (2/3)
 
 Rational numbers should automatically simplify to smallest numerator/denominator.
+
+Implement all operations described in:
+https://en.wikipedia.org/wiki/Rational_number
+(Note: as operators)
+
+Further references:
+
+https://mitpress.mit.edu/sites/default/files/sicp/full-text/sicp/book/node28.html
+http://www.blackwasp.co.uk/RationalNumberArithmetic.aspx
+
+
+** Combine patterns in 2 different ways: (a) nesting. (b) binary operators
+
 
 * Advanced
 
@@ -146,6 +164,13 @@ https://www.youtube.com/watch?v=6aHWJKJe9mU
 ** Program a list pattern which gives access to the list data of the stream for on-the-fly modification
 ** Program a way to share a data structure in multiple patterns playing in parallel.  
 ** Program a way to select pitches or harmonic structures by solving optimization problems on the fly in a polyphonic pattern sharing a harmonic field data structure
+
+Hint: list comprehensions
+** Program feedback in patterns and compare to feedback in signals
+   :PROPERTIES:
+   :DATE:     <2020-12-14 Mon 11:37>
+   :END:
+
 * List of topics to cover
 ** Variables
 
