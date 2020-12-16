@@ -634,19 +634,6 @@ Important for reading large numbers of files!
 *** Managing i/o bus connections
 *** Many-to-one and One-to many synth link configurations
 
-* For class sessions
-
-** 16 Dec 2020 11:03
-
-- Physical Modeling
-- Combine Simple Wave Forms
-- Waveshaping
-- Patterns
-
-https://thormagnusson.gitbooks.io/scoring/content/PartII/chapter11.html
-
-https://doc.sccode.org/Classes/Stk.html
-
 * Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
 ** NotificationCenter (Certainly)
 ** AbstractResponderFunc (Very probably)

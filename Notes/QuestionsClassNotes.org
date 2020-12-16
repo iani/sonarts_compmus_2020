@@ -6,3 +6,15 @@ The Signal is not an OutputProxy. It is also not a Buffer.  It holds data in scl
 
 ** Can we make aliases so that changes in a parameter are reflected in many things?
 
+   
+* For 16 Dec 2020 11:03
+
+- Physical Modeling
+- Combine Simple Wave Forms
+- Waveshaping
+- Patterns
+
+https://thormagnusson.gitbooks.io/scoring/content/PartII/chapter11.html
+
+https://doc.sccode.org/Classes/Stk.html
+
