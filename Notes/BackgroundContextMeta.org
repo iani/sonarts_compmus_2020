@@ -14,6 +14,7 @@ Particularities: The context of closures and environments in threads.  The uses 
 
 ** Symmetry
 
+*** Palindrome
 ** Randomness vs. Chaos
 
 ** Measuring perception sense, sensing, meaning
