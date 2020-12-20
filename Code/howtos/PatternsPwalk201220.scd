@@ -24,13 +24,13 @@ Advance through the elements of a sequence (list), skipping elements according t
 };
 //:================================================================
 //:Using Pwalk to play a Pseq in reverse order
-/* this starts with the first element, then plays the rest 
+/* 
+This starts with the first element, then plays the rest 
 in reverse order.  To omit the first element, one has to skip it 
 with a next, then use the rest. 
 Is there a way to improve this?
 Perhaps write a new class that does the next on the stream
 before returning it?
-
 */
 Pwalk((1..5), 4, 1).asStream.nextN(10).postln;
 //:================================================================
