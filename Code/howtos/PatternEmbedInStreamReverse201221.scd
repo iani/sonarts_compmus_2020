@@ -17,15 +17,11 @@ r = {
 8 do: { r.next.postln };
 //:using offset and repeats as functions
 r = {
-	Pseq((1..5),
-		{ | inval |
-		postf("testing. REPEATS is: %\n", inval);
-		2
-	},
+	Pseq((1..5) add: Pseq((100..103) add: Pseq((0, 0.1 .. 0.2))), 2,
 		{ | inval |
 		postf("testing. inval is: %\n", inval);
 		0
 	}).embedInStream((reverse: true)); // returns nil
 }.r;
-8 do: { r.next.postln };
+18 do: { r.next.postln };
 //:
