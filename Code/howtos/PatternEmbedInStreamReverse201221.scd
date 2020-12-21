@@ -15,4 +15,17 @@ r = {
 	Pseq((1..5), 2).embedInStream((reverse: true)); // returns nil
 }.r;
 8 do: { r.next.postln };
+//:using offset and repeats as functions
+r = {
+	Pseq((1..5),
+		{ | inval |
+		postf("testing. REPEATS is: %\n", inval);
+		2
+	},
+		{ | inval |
+		postf("testing. inval is: %\n", inval);
+		0
+	}).embedInStream((reverse: true)); // returns nil
+}.r;
+8 do: { r.next.postln };
 //:
