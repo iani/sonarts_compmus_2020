@@ -80,10 +80,12 @@ a + beta;
  }
  #+end_src
 
+*** Start 7 Synths with frequencies taken from the midi notes [60, 62, 63, 66, 67, 68, 70, 71], and release them with fades taken from [0.1, 0.5, 1, 2, 5, 7, 0.1], 
+
+Do the release with 1 statement for all 7 synths.
 *** start 89 sounds, then stop the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th sound at once, all together.
 
  More difficult variant: Devise an algorithmic way for selecting the 2nd, 3d, 5th, 8th, 13th, 21st, 34th, 55th synth, without typing those numbers in the code.
-
 
 ** Functions
 
