@@ -15,9 +15,9 @@ Pbind(\dur, 0.2, \degree, Pseq([~pat1, \, \, ~pat1 + 4]), \amp, 0.2).play;
 Pbind(\dur, 0.2, \degree, Pseq([~pat1, \, \, ~pat1 + 4, \, \, ~pat1 + 7]), \amp, 0.2).play;
 //:example of making a new scale
 Scale.all.put(\catastrophic, Scale([0, 0.1, 0.4, 11.2]));
-//:Raga Maya Malaga Goula
-Scale.all.put(\mayamalagagoula, Scale([0, 1, 4, 5, 7, 8, 11]));
+//:Raga Maya Malava Goula
+Scale.all.put(\mayamalavagoula, Scale([0, 1, 4, 5, 7, 8, 11]));
 //:play he above example in Raga Maya Malaga Goula
 Pbind(\dur, 0.5, \degree, Pseq([~pat1, \, \, ~pat1 + 4, \, \, ~pat1 + 7]), \amp, 0.2,
-	\scale, Scale.mayamalagagoula
+	\scale, Scale.mayamalavagoula
 ).play;
