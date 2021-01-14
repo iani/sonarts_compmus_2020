@@ -171,7 +171,7 @@ Do the release with 1 statement for all 7 synths.
 
 * Advanced
 
-** Polyrhythms, Konnakol
+** Meters/Rhythm Patterns, Polyrhythms, Konnakol
 *** Program polyrhythms using demand UGens.  Can you change the number of beats in a cycle while playing?
 *** Program the 75/16 Tatighinathom pattern from the Extreme Math Nerd Music Youtube video
     :PROPERTIES:
@@ -188,6 +188,24 @@ Do the release with 1 statement for all 7 synths.
  OFF BEAT TWINKLE TWINKLE LITTLE STAR
  https://www.youtube.com/watch?v=6aHWJKJe9mU
 
+*** Program the Euclidean Rhythm algorithm by G. Toussaint
+
+Original soure paper:
+
+https://en.wikipedia.org/wiki/Euclidean_rhythm
+http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf
+
+Supporting studies online with explanations on algorithm implementations:
+
+1. https://medium.com/code-music-noise/euclidean-rhythms-391d879494df
+2. https://www.computermusicdesign.com/simplest-euclidean-rhythm-algorithm-explained/
+3. https://dev.to/erwald/euclidean-rhythms-and-haskell-5ecj
+
+Suggestion: 
+
+Start with Bresenham’s line algorithm described in site 1 above.
+Then explore the original Bjorklund algorithm described also in site 1.
+After that try to see how the Bjorklund algorithm is reflected in the numerical algorithms described by Toussaint and the other sites.
 
 ** Indian Music Theory - Vocal ornaments + Pattern combinations
 *** Program the 22 shrutis using rational numbers
