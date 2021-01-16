@@ -41,6 +41,7 @@ Pbinds in a sequence of specified durations.
 		"DONE".postln;
 	}.fork;
 };
+// example of a score
 a = ~pbplay.(
 	[4, Pbind(\dur, 0.01, \degree, Pbrown(-1, 10, 0.1), \amp, 0.5)],
 	3, // pause between phrases. If no pattern is provided, then stay silent.

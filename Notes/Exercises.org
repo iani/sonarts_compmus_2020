@@ -190,9 +190,9 @@ Supporting studies online with explanations on algorithm implementations:
 
 Suggestion: 
 
-Start with Bresenham’s line algorithm described in site 1 above. (code-music-noise).
-Then explore the original Bjorklund algorithm described also in site 1.
-After that try to see how the Bjorklund algorithm is reflected in the numerical algorithms described by Toussaint and the other sites.
+1. Start with Bresenham’s line algorithm described in site 1 above. (code-music-noise).
+2. Then explore the original Bjorklund algorithm described also in site 1.
+3. Finally, try to see how the Bjorklund algorithm is reflected in the numerical algorithms described by Toussaint and the other sites.
 
 (Note 15 Jan 2021 13:19: See coding attempt in SC-Hacks repo)
 
