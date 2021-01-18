@@ -19,17 +19,48 @@ value to the second argument: "limit".
 		((currentvalue = stream.next).notNil and: {
 			(count) < limit			
 		})
-	}{
-		values = values add: currentvalue;
+	}{  // asFloat: Permit representation of larger numbers than Integer.
+		values = values add: currentvalue.asFloat;
 		count = count + 1;
 	};
 	values.sum;
 }
 )
-
 //: Tests:
 ~patSum.(Pseq([1, 2, 3, 6]));
 //:
 ~patSum.(Pseries(1, 1, 10));
 //:
 ~patSum.(Pn(0.5, 10));
+//:
+(3..9) do: { | i |
+~patSum.(Pseries(1, 1, (10**i).postln)).postln;
+}
+//:alternative coding of sum
+(
+~patSum2 = { | pattern, limit = 1000000 |
+	var stream, dur = 0.0, currentvalue, count = 0;
+	stream = pattern.asStream;
+	while {
+		((currentvalue = stream.next).notNil and: {
+			(count) < limit			
+		})
+	}{
+		dur = dur + currentvalue;
+		count = count + 1;
+	};
+	dur
+}
+)
+//: Tests of alternative version:
+~patSum2.(Pseq([1, 2, 3, 6]));
+//:
+~patSum2.(Pseries(1, 1, 10));
+//:
+~patSum2.(Pn(0.5, 10));
+//:
+(3..9) do: { | i |
+~patSum2.(Pseries(1, 1, (10**i).postln)).postln;
+}
+
+
