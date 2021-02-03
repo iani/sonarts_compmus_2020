@@ -128,6 +128,7 @@ Do the release with 1 statement for all 7 synths.
 
 *** Design a synth algorithm using additive synthesis that produces a pulse wave 
 *** Design a synth algorithm using additive synthesis that produces a saw wave 
+*** Write a function that takes as input another function and treats it as trigger for sending '/tr' messages via SynthTrig
 ** Patterns
 *** Program the jumping pattern from Intro to Carnatic Music
     :PROPERTIES:
