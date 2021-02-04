@@ -29,6 +29,14 @@ a + beta;
 
 *** calculate the sum of the elements of this array: 
 
+*** create a nested array
+
+*** post all elements in an array, each on a separate line
+
+** Events
+
+*** Play an event
+*** 
 ** Patterns 
 
 * Intermediate
