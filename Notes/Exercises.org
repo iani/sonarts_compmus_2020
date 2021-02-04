@@ -36,7 +36,9 @@ a + beta;
 ** Events
 
 *** Play an event
-*** 
+*** Find out which are the keys added to an event by playing it.
+*** Find out how many are the keys of the default parent event
+*** List the keys of the default parent event
 ** Patterns 
 
 * Intermediate
