@@ -59,13 +59,19 @@ SynthDef(\paulstretchMono, { |out = 0, bufnum, envBufnum, pan = 0, stretch = 50,
 //: Example
 ({
 	var envBuf, envSignal, buffer;
-	buffer = Buffer.read(s, Platform.resourceDir +/+ "sounds/a11wlk01.wav");
+	buffer = Buffer.read(s, Platform.resourceDir +/+ "sounds/columbia.wav");
 	// The grain envelope
 	envBuf = Buffer.alloc(s, s.sampleRate, 1);
 	envSignal = Signal.newClear(s.sampleRate).waveFill({|x| (1 - x.pow(2)).pow(1.25)}, -1.0, 1.0);
 	envBuf.loadCollection(envSignal);
 	s.sync();
 	// Runs indefinitely
-	Synth(\paulstretchMono, [\bufnum, buffer.bufnum, \envBufnum, envBuf.bufnum]);
+    a = Synth(\paulstretchMono, [\bufnum, buffer.bufnum, \envBufnum, envBuf.bufnum]);
 }.fork;
-)
+);
+//:
+a.set(\stretch, 0.15);
+//:
+a.set(\stretch, 75);
+//:
+a.set(\stretch, 175);
