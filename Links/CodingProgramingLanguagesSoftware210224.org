@@ -1,0 +1,150 @@
+# 24 Feb 2021 10:36
+
+* Basic tools for programming
+  :PROPERTIES:
+  :DATE:     <2021-02-24 Wed 11:29>
+  :END:
+
+** EMACS
+
+https://xkcd.com/378/ nuff said
+
+;-)  https://i.stack.imgur.com/7Cu9Z.jpg
+
+https://www.emacswiki.org/
+
+https://www.emacswiki.org/emacs/EmacsAndXEmacs
+
+https://www.emacswiki.org/emacs/EmacsImplementations
+
+** Atom
+
+https://atom.io/
+
+** Electron
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 11:29>
+   :END:
+
+https://www.electronjs.org/
+
+** Node.js
+
+https://nodejs.org/en/
+
+* Coding for art
+** Toplap: The home of live coding
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 10:37>
+   :END:
+
+ https://toplap.org/
+
+** Programming with poetic verse: in.verse
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 10:37>
+   :END:
+
+ https://github.com/noisyneuron/inverse
+ https://gallery.inverse.website/
+** Livecoding audio (and sometimes also graphics)
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 10:52>
+   :END:
+
+*** gibber (also graphics)
+
+ https://gibber.cc/alpha/playground/
+
+*** sonic pi
+
+ https://sonic-pi.net/
+
+*** fox dot
+
+ https://foxdot.org/
+
+*** tidal cycles
+
+ https://tidalcycles.org/Welcome
+
+*** Orca (MIDI / OSC sequencer + esoteric minimal programming language)
+
+ https://github.com/hundredrabbits/Orca
+
+ https://llllllll.co/t/orca/22492
+
+** Livecoding graphics
+*** hydra 
+
+ https://hydra-editor.glitch.me/
+
+*** in.verse
+
+ https://github.com/noisyneuron/inverse
+ https://gallery.inverse.website/
+
+** School for Poetic Computation
+
+NYC.  Zach Liebermann, Amit Pitaru
+
+https://sfpc.io/
+
+* Other audio / music software of interest
+  :PROPERTIES:
+  :DATE:     <2021-02-24 Wed 10:56>
+  :END:
+
+** AudioMulch
+
+http://www.audiomulch.com/
+
+** Sound Touch / Sound Stretch
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 11:11>
+   :END:
+
+https://www.surina.net/soundtouch/
+https://www.surina.net/soundtouch/soundstretch.html
+https://gitlab.com/soundtouch
+
+** Pauls Stretch
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 11:05>
+   :END:
+
+http://hypermammut.sourceforge.net/paulstretch/
+
+Note that a port for SuperCollider based on the Paul's Extreme Sound Stretch algorithm by Nasca Octavian Paul exists as single SynthDef.
+Online: https://sccode.org/1-5d6
+
+«Paulstretch for SuperCollider» by jpdrecourt
+on 07 Apr'20 03:46 in ambient drone stretching
+
+Code is included in the present repository under /Code/howtos/PaulStretch210222.scd
+
+** Renoise
+
+https://www.renoise.com/
+
+** Reason
+
+https://www.reasonstudios.com/en/reason
+
+** Reaktor
+
+https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/
+
+** PD
+
+https://puredata.info/
+
+** Ableton Live
+
+https://www.ableton.com/en/
+
+** Max/MSP, Max for Live
+
+https://cycling74.com/
+
+https://www.ableton.com/en/live/max-for-live/
