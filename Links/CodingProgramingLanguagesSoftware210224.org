@@ -54,7 +54,63 @@ https://nodejs.org/en/
 
 https://thormagnusson.gitbooks.io/scoring/content/index.html
 
-***** Blog/repo  of sc livecoder 34
+****** Flute Physical model synthdef
+       :PROPERTIES:
+       :DATE:     <2021-02-26 Fri 19:58>
+       :END:
+
+The physical model of flute synthdef is found on this page of Thor Magnusson's book: 
+
+https://thormagnusson.gitbooks.io/scoring/content/PartII/chapter11.html
+
+The example in question is based on the technique of Digital Waveguides (https://ccrma.stanford.edu/~jos/pasp/Digital_Waveguide_Models.html)
+
+***** Gamelan and(/on) Supercollider
+      :PROPERTIES:
+      :DATE:     <2021-02-26 Fri 20:03>
+      :END:
+
+https://www.youtube.com/watch?v=At6J42sS5o8 Exchange Talk: Livecoding and the Javanese Gamelan – a Series of Inconclusive Battles
+
+https://www.youtube.com/watch?v=J52KxVJHqJo Virtual Gamelan - SuperCollider
+
+****** Nice example of actual Gamelan
+       :PROPERTIES:
+       :DATE:     <2021-02-26 Fri 20:31>
+       :END:
+
+https://www.youtube.com/watch?v=UEWCCSuHsuQ&t=113s
+
+Sound Tracker - Gamelan (Indonesia)
+
+And another one with dance: 
+
+https://www.youtube.com/watch?v=v4C7T0-G7Ho unbelievable super balinese dance , by 14 years old girl.
+
+And another one yet: 
+
+https://www.youtube.com/watch?v=69p60y3ePDg
+
+The Legong - Old Balinese Dance 1933 (Tari Legong Bali)
+
+***** Selected SC performances on Youtube
+      :PROPERTIES:
+      :DATE:     <2021-02-26 Fri 20:10>
+      :END:
+
+****** Supercollider - Live-coding session 11 : Full HD - Audio & Visuals, nasty sound
+       :PROPERTIES:
+       :DATE:     <2021-02-26 Fri 20:12>
+       :END:
+
+https://www.youtube.com/watch?v=_yryiuALe_c
+
+****** "Astral" : Some Live Coding With SuperCollider
+https://www.youtube.com/watch?v=WLV4Rx6YhSY
+
+****** Noodling around with FoxDot and SuperCollider
+https://www.youtube.com/watch?v=CXrkq7u69vU
+***** A live-coder and  algoraver: Blog/repo  of sc livecoder 34
 
  https://theseanco.github.io/howto_co34pt_liveCode/
 
@@ -92,6 +148,17 @@ https://tidalcycles.org/Welcome
 - https://github.com/hundredrabbits/Orca
 - https://llllllll.co/t/orca/22492
 
+** Alex McLean talk: Introduction to Live Coding Music and Visuals
+   :PROPERTIES:
+   :DATE:     <2021-02-26 Fri 20:23>
+   :END:
+
+https://www.youtube.com/watch?v=-QY2x6aZzqc
+
+** Algorave: algorithmic dance culture | Alex McLean | TEDxHull
+
+https://www.youtube.com/watch?v=nAGjTYa95HM
+
 ** Toplap: The home of live coding
    :PROPERTIES:
    :DATE:     <2021-02-24 Wed 10:37>
@@ -110,6 +177,13 @@ https://tidalcycles.org/Welcome
 *** hydra 
 
 https://hydra-editor.glitch.me/
+**** Demo/Performance by the author: Olivia Jack
+
+Olivia Jack - Hydra, Live Coding Visuals in the Browser
+https://www.youtube.com/watch?v=cw7tPDrFIQg
+**** Introduction to the Hydra editor
+
+Synths & Things - Hydra-Editor introduction https://www.youtube.com/watch?v=FKBY6RctMPA
 
 *** in.verse
 
