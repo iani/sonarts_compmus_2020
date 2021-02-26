@@ -31,20 +31,6 @@ https://www.electronjs.org/
 https://nodejs.org/en/
 
 * Coding for art
-** Toplap: The home of live coding
-   :PROPERTIES:
-   :DATE:     <2021-02-24 Wed 10:37>
-   :END:
-
- https://toplap.org/
-
-** Programming with poetic verse: in.verse
-   :PROPERTIES:
-   :DATE:     <2021-02-24 Wed 10:37>
-   :END:
-
-- https://github.com/noisyneuron/inverse
-- https://gallery.inverse.website/
 ** Programming + Livecoding audio (and sometimes also graphics)
    :PROPERTIES:
    :DATE:     <2021-02-24 Wed 10:52>
@@ -56,27 +42,34 @@ https://nodejs.org/en/
 - Collection of code from the community (lots of interesting examples!) :: https://sccode.org/
 - Documentation (The help files) :: http://doc.sccode.org/ 
 
-*** Other music coding sites + blogs (often SC-Related)
-    :PROPERTIES:
-    :DATE:     <2021-02-24 Wed 13:26>
-    :END:
+**** Other music coding sites + blogs (SC-Related)
+     :PROPERTIES:
+     :DATE:     <2021-02-24 Wed 13:26>
+     :END:
 
-**** Blog/repo  of sc livecoder 34
+***** Thor Magnusson's book on SuperCollider scoring, online
+      :PROPERTIES:
+      :DATE:     <2021-02-26 Fri 17:33>
+      :END:
 
-https://theseanco.github.io/howto_co34pt_liveCode/
+https://thormagnusson.gitbooks.io/scoring/content/index.html
 
-#+begin_quote
-*About*
+***** Blog/repo  of sc livecoder 34
 
-howto_co34pt_liveCode is an attempt to extensively document my live-coding music practice. I live code as coï¿¥ï¾¡pt, mostly making dance music (including for Algoraves), but I have also employed live coding as part of some other projects. This repo contains a number of articles and essays listed in this contents page which cover various aspects of my live coding practice from the ground up, and also contains a number of files to support your use of SuperCollider in the way that I use it. More info about this in 'What This Repo Is'
+ https://theseanco.github.io/howto_co34pt_liveCode/
 
-#+end_quote
+ #+begin_quote
+ *About*
 
-The repo belongs to S. Cotterill, a live coder from Newcastle who uses SuperCollider and TidalCycles for music in the electronica/acid genre and gigs at AlgoRaves.
+ howto_co34pt_liveCode is an attempt to extensively document my live-coding music practice. I live code as coï¿¥ï¾¡pt, mostly making dance music (including for Algoraves), but I have also employed live coding as part of some other projects. This repo contains a number of articles and essays listed in this contents page which cover various aspects of my live coding practice from the ground up, and also contains a number of files to support your use of SuperCollider in the way that I use it. More info about this in 'What This Repo Is'
 
-***** Euclidean Rhythms on SC Pbind
+ #+end_quote
 
-  https://theseanco.github.io/howto_co34pt_liveCode/3-4-Euclidean-Rhythms/
+ The repo belongs to S. Cotterill, a live coder from Newcastle who uses SuperCollider and TidalCycles for music in the electronica/acid genre and gigs at AlgoRaves.
+
+****** Euclidean Rhythms on SC Pbind
+
+   https://theseanco.github.io/howto_co34pt_liveCode/3-4-Euclidean-Rhythms/
 
 *** gibber (also graphics)
 
@@ -99,6 +92,20 @@ https://tidalcycles.org/Welcome
 - https://github.com/hundredrabbits/Orca
 - https://llllllll.co/t/orca/22492
 
+** Toplap: The home of live coding
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 10:37>
+   :END:
+
+ https://toplap.org/
+
+** Programming with poetic verse: in.verse
+   :PROPERTIES:
+   :DATE:     <2021-02-24 Wed 10:37>
+   :END:
+
+- https://github.com/noisyneuron/inverse
+- https://gallery.inverse.website/
 ** Livecoding graphics
 *** hydra 
 
