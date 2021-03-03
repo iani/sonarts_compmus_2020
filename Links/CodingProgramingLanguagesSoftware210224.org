@@ -201,6 +201,15 @@ https://sfpc.io/
   :DATE:     <2021-02-24 Wed 10:56>
   :END:
 
+** Leimma, Apotome (Λείμμα και Αποτομή) Software for non-european music tratitions
+   :PROPERTIES:
+   :DATE:     <2021-03-03 Wed 16:01>
+   :END:
+
+https://isartum.net/apotome
+
+https://isartum.net/leimma/
+
 ** AudioMulch
 
 http://www.audiomulch.com/
