@@ -22,6 +22,10 @@ https://github.com/billkats/Candy
 
 https://github.com/baxejohn/baxejohn-sonarts-2021
 
+* Δημήτριος Τσακιρίδης
+
+https://github.com/s20tsak/ODE-TO-SYSTEMATIC-PATIENCE
+
 * Νίκος Κανελάκης
   :PROPERTIES:
   :DATE:     <2021-03-03 Wed 12:15>
