@@ -1,7 +1,7 @@
 
 * Αγάπη Ζάρδα
 
-https://github.com/AgapiZa/SONARTS_-2020-21-.git 
+https://github.com/AgapiZ/Pilot.numOne
 
 * Άκης Κέμος
 
@@ -21,6 +21,13 @@ https://github.com/billkats/Candy
 * Γιάννης Μπαξεβάνης
 
 https://github.com/baxejohn/baxejohn-sonarts-2021
+
+* Γιάννης Λέφας
+  :PROPERTIES:
+  :DATE:     <2021-03-06 Sat 09:29>
+  :END:
+
+https://github.com/JohnLef666/Fleetwood_Mac_Dreams_SynthDef_Cover
 
 * Δημήτριος Τσακιρίδης
 
