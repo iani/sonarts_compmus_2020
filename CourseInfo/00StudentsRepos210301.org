@@ -22,6 +22,8 @@ https://github.com/billkats/Candy
 
 https://github.com/baxejohn/baxejohn-sonarts-2021
 
+* Ηλίας Μπαγλάνης
+ https://github.com/iliasbag/think-siney
 * Γιάννης Λέφας
   :PROPERTIES:
   :DATE:     <2021-03-06 Sat 09:29>
