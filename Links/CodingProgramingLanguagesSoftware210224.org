@@ -127,26 +127,33 @@ https://www.youtube.com/watch?v=CXrkq7u69vU
 
    https://theseanco.github.io/howto_co34pt_liveCode/3-4-Euclidean-Rhythms/
 
-*** gibber (also graphics)
+*** Other live-coding tools using SuperCollider
 
-https://gibber.cc/alpha/playground/
+**** tidal cycles
 
-*** sonic pi
+ https://tidalcycles.org/Welcome
 
-https://sonic-pi.net/
+**** fox dot
 
-*** fox dot
+ https://foxdot.org/
 
-https://foxdot.org/
+**** sonic pi
 
-*** tidal cycles
+ https://sonic-pi.net/
 
-https://tidalcycles.org/Welcome
+**** Sorceress (sound synthesis with SuperCollider, using rust)
 
-*** Orca (MIDI / OSC sequencer + esoteric minimal programming language)
+ https://crates.io/crates/sorceress
 
-- https://github.com/hundredrabbits/Orca
-- https://llllllll.co/t/orca/22492
+*** Other live coding environments
+**** gibber (also graphics)
+
+ https://gibber.cc/alpha/playground/
+
+**** Orca (MIDI / OSC sequencer + esoteric minimal programming language)
+
+ - https://github.com/hundredrabbits/Orca
+ - https://llllllll.co/t/orca/22492
 
 ** Alex McLean talk: Introduction to Live Coding Music and Visuals
    :PROPERTIES:
